@@ -1,0 +1,37 @@
+{
+  "kind": "manually_transcribed_sanitized_measurements",
+  "units": "decimal GB/s",
+  "baseline_gen1": {
+    "h2d": 0.816,
+    "d2h": 0.839
+  },
+  "gen2_rounds": [
+    {
+      "round": 1,
+      "h2d": 1.629,
+      "d2h": 1.674,
+      "final_round_trip_equal": true
+    },
+    {
+      "round": 2,
+      "h2d": 1.628,
+      "d2h": 1.672,
+      "final_round_trip_equal": true
+    },
+    {
+      "round": 3,
+      "h2d": 1.628,
+      "d2h": 1.673,
+      "final_round_trip_equal": true
+    }
+  ],
+  "reported_memory_MiB": 65536,
+  "power_limit_W": 150,
+  "physical_link": {
+    "generation": 2,
+    "width": 4
+  },
+  "vm_stop_start_retention_observed_once": true,
+  "host_cold_boot_tested": false,
+  "raw_logs_included": false
+}

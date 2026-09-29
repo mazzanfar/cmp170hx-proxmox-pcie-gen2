@@ -1,0 +1,4 @@
+This repository builds on amoghmunikote/cmpunlocker (GPL version 2) and NVIDIA open-gpu-kernel-modules (per-file licenses).
+The patch contains context and changes derived from those projects. NVIDIA source files retain their original copyright and MIT notices. Apply the patch to the original source; do not strip its notices.
+New scripts and documentation in this package: SPDX-License-Identifier: GPL-2.0-only.
+No NVIDIA firmware, proprietary userspace driver, built module or copied installer is distributed here.
